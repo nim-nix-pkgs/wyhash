@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-wyhash-0_1_0.flake = false;
+  inputs.src-wyhash-0_1_0.ref   = "refs/tags/0.1.0";
   inputs.src-wyhash-0_1_0.owner = "jackhftang";
-  inputs.src-wyhash-0_1_0.ref   = "0_1_0";
   inputs.src-wyhash-0_1_0.repo  = "wyhash.nim";
   inputs.src-wyhash-0_1_0.type  = "github";
   
